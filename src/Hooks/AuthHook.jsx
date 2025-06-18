@@ -2,7 +2,7 @@ import React, { use } from 'react';
 import { AuthContext } from '../Context/AuthContext';
 
 const AuthHook = () => {
-    const authInfo = use(AuthContext())
+    const authInfo = use(AuthContext)
     return authInfo
 };
 
